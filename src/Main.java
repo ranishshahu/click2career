@@ -12,7 +12,7 @@ public class Main {
 
         ArrayList<Account> list = new ArrayList<>();
         list.add(new Account("Ranish Shahu","Bhaktapur",5000,981888888,"ranish@gmail.com"));
-        list.add(new Account("Raju Shrestha","Kathmandu",10000,98184588,"ranish@gmail.com"));
+        list.add(new Account("Raju Shrestha","Kathmandu",10000,98184588,"raju@gmail.com"));
 
 
 
@@ -39,6 +39,10 @@ public class Main {
 
                     System.out.println("Enter Address ");
                     address = sc.nextLine();
+                    sc.next();
+
+
+
                     System.out.print("Enter Amount: ");
                     amt = sc.nextInt();
                     System.out.print("Enter PhoneNo.: ");
